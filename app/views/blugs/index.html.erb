@@ -1,0 +1,12 @@
+<h1>Blugi</h1>
+
+<ul>
+  <% @blugs.each do |blug| %>
+    <li>
+    Id: <%= blug.id %>
+    Price: <%= blug.price %>
+    Size: <%= blug.size %>
+    din care taxe catre Dumnezeu <%= tax(blug) %>
+    </li>
+  <% end %>
+</ul>

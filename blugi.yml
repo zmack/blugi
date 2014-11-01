@@ -1,0 +1,13 @@
+---
+- !ruby/object:Blug
+  size: '10'
+  price: 100
+  id: 3
+- !ruby/object:Blug
+  size: '100'
+  price: 200
+  id: 2
+- !ruby/object:Blug
+  size: '100'
+  price: 10
+  id: 1

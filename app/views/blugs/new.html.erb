@@ -1,0 +1,6 @@
+<%= form_tag url_for({ :action => :create }) do %>
+  <%= text_field :blug, :size, :value => @blug.size %>
+  <%= text_field :blug, :price, :value => @blug.size%>
+  <%= submit_tag "Create!" %>
+<% end %>
+<%# http://apidock.com/rails/ActionView/Helpers/ %>
